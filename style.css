@@ -1,0 +1,96 @@
+
+body{
+    margin: 0;
+    padding: 20px;
+    height: 90vh;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(assets/What-you-can-claim-when-working-from-home.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+	backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(227, 228, 237, 0.37);
+    border: 1.5 solid rgba(255, 255, 255, 0.18);
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: white;
+}
+.container {
+	font-family: sans-serif;
+	border:none;
+	outline: none;
+}
+.input{
+    width: 90%;
+	background-color: #080808;
+	padding: 30px 25px;
+	border-radius: 8px;
+	box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+	margin-bottom: 50px;
+}
+input,button{
+	background-color: #ffffff;
+	color:#080808;
+	font-weight: 500px;
+	border-radius: 5px ;
+}
+input{
+	width:60%;
+    height: 50px;
+	padding: 0 20px;
+	font-size: 14px;
+}
+button{
+	width: 30%;
+    height: 55px;
+	float: right;
+}
+.output{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+    gap: 5px;
+}
+.output div{
+	height: 70px;
+	width: 120px;
+	background-color: #080808;
+	border-radius: 5px;
+	color:#fff;
+	display: grid;
+	text-align:center;
+	align-items: center;
+	padding: 20px 0;
+	box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+}
+span{
+	font-size: 30px;
+	font-weight: 500;
+}
+p{
+	font-size: 14px;
+	color: #c9c6c6;
+	font-weight: 400;
+}
+
+@media only screen and (min-width:320px) and (max-width:520px){
+
+    .input{
+        padding: 25px 15px;
+    }
+
+    input{
+        width: 90px;
+    }
+
+    button{
+        width: 80px;
+    }
+
+    .output div {
+        width: 105px;
+        height: 45px;
+    }   
+}
